@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<main class="lazy-loading">
+    <div class="lazy">
+        <h1>Please Sign up...</h1>
+      </div>
+
+</main>
+
+
+    <main class="d-none" id="show">
+        <header>
+            <span>Sign up</span>
+        </header>
+    
+    
+        <form action="/" class="form-container">
+            <div>
+                <label for="username"></label>
+            <input type="text" placeholder="Username" id="username" required>
+            </div>
+            <div>
+                <label for="name"></label>
+            <input type="name" placeholder="Full name" id="name" required>
+            </div>
+            <div>
+                <label for="mail"></label>
+            <input type="email" placeholder="@mail.com" id="mail" required>
+            </div>
+            <div>
+                <label for="phone"></label>
+            <input type="text" placeholder="Phone number" id="phone" required>
+            </div>
+            <div>
+                <label for="password"></label>
+            <input type="password" placeholder="Password" id="password" required>
+            </div>
+           <div>
+            <label for="confirmpassword"></label>
+            <input type="password" placeholder="Confirm Password" id="confirmpassword" required>
+           </div>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
